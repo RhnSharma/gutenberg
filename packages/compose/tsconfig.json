@@ -16,6 +16,9 @@
 		"src/higher-order/with-instance-id/**/*",
 		"src/hooks/use-async-list/**/*",
 		"src/hooks/use-constrained-tabbing/**/*",
+		"src/hooks/use-copy-on-click/**/*",
+		"src/hooks/use-copy-to-clipboard/**/*",
+		"src/hooks/use-ref-effect/**/*",
 		"src/hooks/use-instance-id/**/*",
 		"src/utils/**/*"
 	]
