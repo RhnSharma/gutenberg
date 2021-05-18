@@ -10,7 +10,7 @@ import type { Ref } from 'react';
 import { useContextSystem, contextConnect } from '../context';
 // eslint-disable-next-line no-duplicate-imports
 import type { ViewOwnProps } from '../context';
-import { View } from '../view';
+import { View } from '../../view';
 
 export interface ShortcutDescription {
 	display: string;
