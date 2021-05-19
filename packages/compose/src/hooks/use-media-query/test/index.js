@@ -138,7 +138,7 @@ describe( 'useMediaQuery', () => {
 		await act( async () => {
 			root = create( <TestComponent /> );
 		} );
-		// query will be case to a boolean to simplify the return type.
+		// query will be cast to a boolean to simplify the return type.
 		expect( root.toJSON() ).toBe( 'useMediaQuery: false' );
 
 		await act( async () => {
